@@ -145,7 +145,7 @@ has 'desired_capabilities' => (
     is => 'rw',
     required => 1,
     alias => 'caps',
-    predicate => 1
+    predicate => 'has_desired_capabilities',
 );
 
 has '_type' => (
